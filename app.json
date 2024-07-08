@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Sanchari",
+    "slug": "Sanchari",
+    "scheme": "sanchari",
+    "version": "1.0.0",
+    "extra": {
+      "GEMINI_API_KEY": "AIzaSyAdjNuNtwwKIiZ7y8QnnVf5JgKawWy77Q8",
+      "WEATHER_API_KEY": "eac9a294f1645dd53eabe77ff66457c4"
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"]
+  }
+}
